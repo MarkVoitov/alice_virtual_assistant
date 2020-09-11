@@ -111,9 +111,9 @@ def process_query(query):
 def runner():
     queries = [
         'Anfisa, How many friends do I have?',
-        'Анфиса, Who are all my friends?',
-        'Анфиса, Where are all my friends?',
-        'Анфиса, Who is guilty?',
+        'Anfisa, Who are all my friends?',
+        'Anfisa, Where are all my friends?',
+        'Anfisa, Who is guilty?',
         'Nikolay, Where are you?',
         'Sonya, What to do?',
         'Anton, Where are you?',
