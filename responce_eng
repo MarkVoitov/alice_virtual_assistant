@@ -1,0 +1,14 @@
+Anfisa, How many friends do I have? - You have 10 friends
+Anfisa, Who are all my friends? - Your friends are: Sergey, Sonya, Alexey, Michael, Dmitry, Alina, Egor, Nikolay, Artem, Petr
+Anfisa, Where are all my friends? - Your friends are in cities: Vladivostok, Moscow, Krasnoyarsk, Perm, Mikhaylovka, Kaliningrad, Omsk, Chelyabinsk
+Anfisa, Who is guilty? - <Unknown request>
+Nikolay, Where are you? - Nikolay is in city Krasnoyarsk
+Sonya, What to do? - <Unknown request>
+Anton, Where are you? - You dont have a friend named Anton
+Alexey, What time is it? - There is time 23:17
+Artem, What time is it? - There is time 07:17
+Anton, What time is it? - You dont have a friend named Anton
+Petr, What time is it? - <Cant define the time in the city Mikhaylovka>
+Nikolay, What is the wheather? - ☀️ 🌡️+2°C 🌬️0.0m/s
+Sonya, What is the wheather? - ☀️ 🌡️+10°C 🌬️→3.1m/s
+Anton, What is the wheather? - You dont have a friend named Anton
