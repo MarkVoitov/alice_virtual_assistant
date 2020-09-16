@@ -66,7 +66,7 @@ def what_weather(city):
         return '<Wheather server error>'
 
 
-def process_anfisa(query):
+def process_alice(query):
     if query == 'How many friends do I have?':
         count_string = format_count_friends(len(DATABASE))
         return f'You have {count_string}'
@@ -102,18 +102,18 @@ def process_friend(name, query):
 def process_query(query):
     tokens = query.split(', ')
     name = tokens[0]
-    if name == 'Anfisa':
-        return process_anfisa(tokens[1])
+    if name == 'Alice':
+        return process_alice(tokens[1])
     else:
         return process_friend(name, tokens[1])
 
 
 def runner():
     queries = [
-        'Anfisa, How many friends do I have?',
-        'Anfisa, Who are all my friends?',
-        'Anfisa, Where are all my friends?',
-        'Anfisa, Who is guilty?',
+        'Alice, How many friends do I have?',
+        'Alice, Who are all my friends?',
+        'Alice, Where are all my friends?',
+        'Alice, Who is guilty?',
         'Nikolay, Where are you?',
         'Sonya, What to do?',
         'Anton, Where are you?',
